@@ -1,0 +1,866 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de origen\Base de datos">
+      <UniqueIdentifier>{908c7bac-0407-4f27-84e8-2df9d347807c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica">
+      <UniqueIdentifier>{2f7922d7-bb3a-4409-85a9-abe1088676a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica">
+      <UniqueIdentifier>{9b2e410f-93d6-4276-8a98-75d77e72d325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Login y Registro">
+      <UniqueIdentifier>{1f5b3842-4551-4643-aa2c-897325cf47d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Login y Registro">
+      <UniqueIdentifier>{80098016-dbd8-4d3a-a32c-869f451c06de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Ventanas emergentes">
+      <UniqueIdentifier>{2d3ae893-4401-4804-87e5-b7751a2bc23f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Ventanas emergentes">
+      <UniqueIdentifier>{5e7b76b8-cf31-4e56-be18-57e1e21536eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Agentes">
+      <UniqueIdentifier>{e629965a-5d3a-4ad6-8cff-bec1ac9b733d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Agentes">
+      <UniqueIdentifier>{af1a4923-b702-46fd-81de-05b55d3c97bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Analizador">
+      <UniqueIdentifier>{31fb17e0-13a3-4339-bcc9-5fd87edc854d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Analizador">
+      <UniqueIdentifier>{7514db03-e2ee-4b31-8db2-0385a0e93b03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Evaluador">
+      <UniqueIdentifier>{b19eec06-569d-419e-8e2a-b206d3a5de77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Evaluador">
+      <UniqueIdentifier>{0656b656-82b7-4a7b-893c-b4283822ed4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\ManejadorDeComunicaciones">
+      <UniqueIdentifier>{72d7afe9-db61-4d59-82ee-f50b484f8025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\ManejadorDeComunicaciones">
+      <UniqueIdentifier>{475e8b7e-de0f-4d18-ab15-37804282c1f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\MotorDeInferencia">
+      <UniqueIdentifier>{198bab6f-b039-4f2e-8854-f5f0739d60c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\MotorDeInferencia">
+      <UniqueIdentifier>{49436330-2e18-4cec-9417-b982233b45e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Pauta">
+      <UniqueIdentifier>{b0ce605e-b7a6-4cbd-97e2-6bf9d7e417bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Pauta">
+      <UniqueIdentifier>{1d5c3135-2cdf-43de-9b53-08d4df69879d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Tiempo">
+      <UniqueIdentifier>{781ffa7e-08f9-401d-82ec-89c1df32813b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Tiempo">
+      <UniqueIdentifier>{dab98c9b-2942-4dba-8030-7362856cd447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Base de datos">
+      <UniqueIdentifier>{9592abbb-7188-439e-b3fe-7e3969ed4600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Archivo">
+      <UniqueIdentifier>{f917ae05-11b6-4d12-8a3d-bc5e5cd79178}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Archivo">
+      <UniqueIdentifier>{82062eef-e487-444b-b801-61c3ae4b16f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles">
+      <UniqueIdentifier>{a0781e53-41e3-40a4-b5da-6ff424a299a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico">
+      <UniqueIdentifier>{9f2fd402-6eb8-4d4f-b965-a2b95e9e6bee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2">
+      <UniqueIdentifier>{bd26dd77-c46c-41e2-8bd4-0ce7a66223bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Basica">
+      <UniqueIdentifier>{5aa19fb6-9506-462a-a0d5-92bf96510513}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Basica\ComplBasica">
+      <UniqueIdentifier>{db182653-aeef-49cf-834c-01e45f3ec17d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Basica\ComplIntermedia">
+      <UniqueIdentifier>{41b0840c-9988-411b-bbe5-542d01260e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Basica\ComplDificil">
+      <UniqueIdentifier>{4a987a75-8c49-4bb2-bc41-431bc7c20d87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Intermedia">
+      <UniqueIdentifier>{08c5c811-30fe-4312-9b85-54ac6cea07f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Intermedia\ComplBasica">
+      <UniqueIdentifier>{1e275413-34a9-458b-8943-295f105ee3d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Intermedia\ComplIntermedia">
+      <UniqueIdentifier>{093a42fc-a3ac-4ccd-ab42-950f48ca3114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Intermedia\ComplDificil">
+      <UniqueIdentifier>{40c38008-6fc7-4317-afc8-1e4babe1b03c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Dificil">
+      <UniqueIdentifier>{4c5c99fe-f608-422d-b78c-787755a04f58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Dificil\ComplBasica">
+      <UniqueIdentifier>{7a3a6989-35f7-469e-9f94-6a7152a8b629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Dificil\ComplIntermedia">
+      <UniqueIdentifier>{e6588be2-f5df-40bb-97b7-052631c027d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Dificil\ComplDificil">
+      <UniqueIdentifier>{8778f496-61fe-4e07-8b2b-37549f052a6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1">
+      <UniqueIdentifier>{efcc4ff0-f344-47f6-8838-000adf6c7ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Basica">
+      <UniqueIdentifier>{c44ecf94-03d9-4cec-a200-3f6299a70010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Basica\ComplIntermedia">
+      <UniqueIdentifier>{87f08334-b9a7-43e4-a8b8-ddb49c177045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Basica\ComplDificil">
+      <UniqueIdentifier>{f2b79408-14b4-4b9f-b3e1-a23f4d8d5711}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Basica\ComplBasica">
+      <UniqueIdentifier>{5f4bad18-eed5-4bc1-aefe-86a926cee983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Intermedia">
+      <UniqueIdentifier>{e9c4a7a4-7416-4ba6-a22e-32d103fed629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Intermedia\ComplBasica">
+      <UniqueIdentifier>{f0797c6c-0f95-4762-bda6-575fdbaeb234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Intermedia\ComplIntermedia">
+      <UniqueIdentifier>{ee8a3f6f-3111-4835-9834-da6eaf1076f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Intermedia\ComplDificil">
+      <UniqueIdentifier>{d60220b8-049a-44be-9118-9bf891851ae8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Dificil">
+      <UniqueIdentifier>{254baed7-46c1-4cfe-88ce-0cfa40c7ce5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Dificil\ComplBasica">
+      <UniqueIdentifier>{9942a1b1-ad38-432b-9bb5-438d008fc8ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Dificil\ComplIntermedia">
+      <UniqueIdentifier>{c31dae3a-a215-4fbd-bb32-56a8f33812fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Dificil\ComplDificil">
+      <UniqueIdentifier>{a9f9702f-35c8-4777-b42c-5e2a9af890d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Intermedio">
+      <UniqueIdentifier>{a4c1d665-1843-481d-8a3b-de7974ce0e23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Intermedio\Tema3">
+      <UniqueIdentifier>{8a5c3b5b-de45-4904-baa0-1151734003da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Intermedio\Tema4">
+      <UniqueIdentifier>{40b1994d-3f2c-4f0b-b7bc-1db189a71bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles">
+      <UniqueIdentifier>{d767cb90-975f-4d15-9704-ce9dea28862c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico">
+      <UniqueIdentifier>{f9aeb79c-4f9f-4ee1-9ecf-fbf7c656ad55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2">
+      <UniqueIdentifier>{3aa2bf24-39dc-45be-9d59-0ffec1e3987d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Basica">
+      <UniqueIdentifier>{65f65385-30de-4496-919b-723338d4d199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Basica\ComplBasica">
+      <UniqueIdentifier>{13bc58e4-6c74-471a-8319-1cdd116a5912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Basica\ComplIntermedia">
+      <UniqueIdentifier>{6b32af73-566c-4955-a8fa-bca79a378e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Basica\ComplDificil">
+      <UniqueIdentifier>{6d9cb491-90ff-4645-b2e1-7e61b196aea6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Intermedia">
+      <UniqueIdentifier>{0206ad27-703e-4de8-aca7-931d3bccdc00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Intermedia\ComplBasica">
+      <UniqueIdentifier>{d52c0b8d-ca65-47f8-a015-72704913c94a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Intermedia\ComplIntermedia">
+      <UniqueIdentifier>{8a8021d4-1ba9-41e4-84ab-2b45ae80a118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Intermedia\ComplDificil">
+      <UniqueIdentifier>{978d1549-e73c-483f-afa5-7acb6c13425d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Dificil">
+      <UniqueIdentifier>{69c0f4dc-a677-4cce-a7dc-30a04008e30c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Dificil\ComplBasica">
+      <UniqueIdentifier>{c61777db-807c-4f4a-8e99-86c9d43e52c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Dificil\ComplIntermedia">
+      <UniqueIdentifier>{b1163d68-7702-4a23-b02e-eaf565c118de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Dificil\ComplDificil">
+      <UniqueIdentifier>{73db899b-cae2-42c4-8a77-7b383df759ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1">
+      <UniqueIdentifier>{4ae6de5a-7fe1-42c2-b13c-2a5d5049c2de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Basica">
+      <UniqueIdentifier>{2cc2dff5-58f4-4c69-a54a-79bf304d7641}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Basica\ComplIntermedia">
+      <UniqueIdentifier>{33d0bbf1-7c63-4116-8929-c47e9d74132e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Basica\ComplDificil">
+      <UniqueIdentifier>{71b17c08-e12a-4cea-8e05-1636d382107e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Basica\ComplBasica">
+      <UniqueIdentifier>{2f0702d4-54ec-4cfc-9558-6d60158941d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Intermedia">
+      <UniqueIdentifier>{3c72bf9d-c3d4-4e7a-b2bf-9afd9871f228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Intermedia\ComplBasica">
+      <UniqueIdentifier>{eeb8e696-e1d9-46ae-907b-2b98ecd9b02e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Intermedia\ComplIntermedia">
+      <UniqueIdentifier>{a62452da-ddb9-42f8-9f0c-c2150e59158a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Intermedia\ComplDificil">
+      <UniqueIdentifier>{90b14dd8-20fa-4f29-8459-8da7163fcf2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Dificil">
+      <UniqueIdentifier>{3834ce99-f357-474c-8c80-049b6749b0cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Dificil\ComplBasica">
+      <UniqueIdentifier>{27134667-4562-40f7-bde2-5dcb1804ba22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Dificil\ComplIntermedia">
+      <UniqueIdentifier>{c2d183b3-6fec-4f6d-b6a8-9795467a839e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Dificil\ComplDificil">
+      <UniqueIdentifier>{7dc193e9-ee4c-49a6-ab9c-a9c65f1e6493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Intermedio">
+      <UniqueIdentifier>{61b1ba21-76eb-4afe-a83f-fa7f72da0659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Intermedio\Tema3">
+      <UniqueIdentifier>{31910d6e-c7b8-4bc6-bf56-72f5453ca23f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Intermedio\Tema4">
+      <UniqueIdentifier>{8e5ffce7-4d06-47e1-b419-92cdfa8fcec1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\InterfazGrafica\Niveles\Nivel Dificil">
+      <UniqueIdentifier>{1842f3cb-a95c-4157-83f2-364a24b959e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\InterfazGrafica\Niveles\Nivel Dificil">
+      <UniqueIdentifier>{8c88cd7b-3366-4d8f-a272-ede3451b2da3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Login.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Login y Registro</Filter>
+    </ClInclude>
+    <ClInclude Include="Registro.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Login y Registro</Filter>
+    </ClInclude>
+    <ClInclude Include="Niveles.h">
+      <Filter>Archivos de encabezado\InterfazGrafica</Filter>
+    </ClInclude>
+    <ClInclude Include="Advertencia.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Ventanas emergentes</Filter>
+    </ClInclude>
+    <ClInclude Include="NivelUno.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico</Filter>
+    </ClInclude>
+    <ClInclude Include="PrincipalUno.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1</Filter>
+    </ClInclude>
+    <ClInclude Include="AgenteAprendizaje.h">
+      <Filter>Archivos de encabezado\Agentes</Filter>
+    </ClInclude>
+    <ClInclude Include="AgenteControlador.h">
+      <Filter>Archivos de encabezado\Agentes</Filter>
+    </ClInclude>
+    <ClInclude Include="Percepciones.h">
+      <Filter>Archivos de encabezado\Agentes</Filter>
+    </ClInclude>
+    <ClInclude Include="Argumento.h">
+      <Filter>Archivos de encabezado\Analizador</Filter>
+    </ClInclude>
+    <ClInclude Include="Conector.h">
+      <Filter>Archivos de encabezado\Analizador</Filter>
+    </ClInclude>
+    <ClInclude Include="ConectorEvaluador.h">
+      <Filter>Archivos de encabezado\Analizador</Filter>
+    </ClInclude>
+    <ClInclude Include="RangosTiempo.h">
+      <Filter>Archivos de encabezado\Analizador</Filter>
+    </ClInclude>
+    <ClInclude Include="Evaluador.h">
+      <Filter>Archivos de encabezado\Evaluador</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDeConocimiento.h">
+      <Filter>Archivos de encabezado\MotorDeInferencia</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDeHechos.h">
+      <Filter>Archivos de encabezado\MotorDeInferencia</Filter>
+    </ClInclude>
+    <ClInclude Include="Hecho.h">
+      <Filter>Archivos de encabezado\MotorDeInferencia</Filter>
+    </ClInclude>
+    <ClInclude Include="MotorDeInferencia.h">
+      <Filter>Archivos de encabezado\MotorDeInferencia</Filter>
+    </ClInclude>
+    <ClInclude Include="Regla.h">
+      <Filter>Archivos de encabezado\MotorDeInferencia</Filter>
+    </ClInclude>
+    <ClInclude Include="Pauta.h">
+      <Filter>Archivos de encabezado\Pauta</Filter>
+    </ClInclude>
+    <ClInclude Include="TiempoGUI.h">
+      <Filter>Archivos de encabezado\Tiempo</Filter>
+    </ClInclude>
+    <ClInclude Include="TiempoMI.h">
+      <Filter>Archivos de encabezado\Tiempo</Filter>
+    </ClInclude>
+    <ClInclude Include="ManejadorMI.h">
+      <Filter>Archivos de encabezado\ManejadorDeComunicaciones</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseDeDatos.h">
+      <Filter>Archivos de encabezado\Base de datos</Filter>
+    </ClInclude>
+    <ClInclude Include="Recuperacion.h">
+      <Filter>Archivos de encabezado\Base de datos</Filter>
+    </ClInclude>
+    <ClInclude Include="LeerArchivo.h">
+      <Filter>Archivos de encabezado\Archivo</Filter>
+    </ClInclude>
+    <ClInclude Include="LeerArchivoEvaluador.h">
+      <Filter>Archivos de encabezado\Archivo</Filter>
+    </ClInclude>
+    <ClInclude Include="LeerPauta.h">
+      <Filter>Archivos de encabezado\Archivo</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1UnoBI.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Basica\ComplIntermedia</Filter>
+    </ClInclude>
+    <ClInclude Include="FormEstrella.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Ventanas emergentes</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1DosBI.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Basica\ComplIntermedia</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1DosBD.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Basica\ComplDificil</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1UnoBD.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Basica\ComplDificil</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1DosBB.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Basica\ComplBasica</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1UnoBB.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Basica\ComplBasica</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1UnoIB.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Intermedia\ComplBasica</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1DosIB.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Intermedia\ComplBasica</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1UnoII.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Intermedia\ComplIntermedia</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1DosII.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Intermedia\ComplIntermedia</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1UnoID.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Intermedia\ComplDificil</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1DosID.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Intermedia\ComplDificil</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1UnoDB.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Dificil\ComplBasica</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1DosDB.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Dificil\ComplBasica</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1UnoDI.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Dificil\ComplIntermedia</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1DosDI.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Dificil\ComplIntermedia</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1UnoDD.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Dificil\ComplDificil</Filter>
+    </ClInclude>
+    <ClInclude Include="Act1DosDD.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Dificil\ComplDificil</Filter>
+    </ClInclude>
+    <ClInclude Include="Act2UnoBB.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Basica\ComplBasica</Filter>
+    </ClInclude>
+    <ClInclude Include="Act2DosBB.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Basica\ComplBasica</Filter>
+    </ClInclude>
+    <ClInclude Include="Act2UnoBI.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Basica\ComplIntermedia</Filter>
+    </ClInclude>
+    <ClInclude Include="Act2DosBI.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Basica\ComplIntermedia</Filter>
+    </ClInclude>
+    <ClInclude Include="Act2UnoBD.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Basica\ComplDificil</Filter>
+    </ClInclude>
+    <ClInclude Include="Act2DosBD.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Basica\ComplDificil</Filter>
+    </ClInclude>
+    <ClInclude Include="Act2UnoIB.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Intermedia\ComplBasica</Filter>
+    </ClInclude>
+    <ClInclude Include="Act2DosIB.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Intermedia\ComplBasica</Filter>
+    </ClInclude>
+    <ClInclude Include="Act2UnoII.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Intermedia\ComplIntermedia</Filter>
+    </ClInclude>
+    <ClInclude Include="Act2DosII.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Intermedia\ComplIntermedia</Filter>
+    </ClInclude>
+    <ClInclude Include="Act2UnoID.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Intermedia\ComplDificil</Filter>
+    </ClInclude>
+    <ClInclude Include="Act2DosID.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Intermedia\ComplDificil</Filter>
+    </ClInclude>
+    <ClInclude Include="Act2UnoDB.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Dificil\ComplBasica</Filter>
+    </ClInclude>
+    <ClInclude Include="Act2DosDB.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Dificil\ComplBasica</Filter>
+    </ClInclude>
+    <ClInclude Include="Act2UnoDI.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Dificil\ComplIntermedia</Filter>
+    </ClInclude>
+    <ClInclude Include="Act2DosDI.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Dificil\ComplIntermedia</Filter>
+    </ClInclude>
+    <ClInclude Include="Act2UnoDD.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Dificil\ComplDificil</Filter>
+    </ClInclude>
+    <ClInclude Include="Act2DosDD.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Dificil\ComplDificil</Filter>
+    </ClInclude>
+    <ClInclude Include="PrincipalTres.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Intermedio\Tema3</Filter>
+    </ClInclude>
+    <ClInclude Include="PrincipalCuatro.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Intermedio\Tema4</Filter>
+    </ClInclude>
+    <ClInclude Include="PrincipalCinco.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Dificil</Filter>
+    </ClInclude>
+    <ClInclude Include="NivelDos.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Intermedio</Filter>
+    </ClInclude>
+    <ClInclude Include="PrincipalDos.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Niveles\Nivel Basico\Tema2</Filter>
+    </ClInclude>
+    <ClInclude Include="Mensaje.h">
+      <Filter>Archivos de encabezado\InterfazGrafica\Ventanas emergentes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Login.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Login y Registro</Filter>
+    </ClCompile>
+    <ClCompile Include="Registro.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Login y Registro</Filter>
+    </ClCompile>
+    <ClCompile Include="Niveles.cpp">
+      <Filter>Archivos de origen\InterfazGrafica</Filter>
+    </ClCompile>
+    <ClCompile Include="Advertencia.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Ventanas emergentes</Filter>
+    </ClCompile>
+    <ClCompile Include="NivelUno.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico</Filter>
+    </ClCompile>
+    <ClCompile Include="PrincipalUno.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1</Filter>
+    </ClCompile>
+    <ClCompile Include="AgenteAprendizaje.cpp">
+      <Filter>Archivos de origen\Agentes</Filter>
+    </ClCompile>
+    <ClCompile Include="AgenteControlador.cpp">
+      <Filter>Archivos de origen\Agentes</Filter>
+    </ClCompile>
+    <ClCompile Include="Percepciones.cpp">
+      <Filter>Archivos de origen\Agentes</Filter>
+    </ClCompile>
+    <ClCompile Include="Argumento.cpp">
+      <Filter>Archivos de origen\Analizador</Filter>
+    </ClCompile>
+    <ClCompile Include="Conector.cpp">
+      <Filter>Archivos de origen\Analizador</Filter>
+    </ClCompile>
+    <ClCompile Include="ConectorEvaluador.cpp">
+      <Filter>Archivos de origen\Analizador</Filter>
+    </ClCompile>
+    <ClCompile Include="RangosTiempo.cpp">
+      <Filter>Archivos de origen\Analizador</Filter>
+    </ClCompile>
+    <ClCompile Include="Evaluador.cpp">
+      <Filter>Archivos de origen\Evaluador</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseDeConocimiento.cpp">
+      <Filter>Archivos de origen\MotorDeInferencia</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseDeHechos.cpp">
+      <Filter>Archivos de origen\MotorDeInferencia</Filter>
+    </ClCompile>
+    <ClCompile Include="Hecho.cpp">
+      <Filter>Archivos de origen\MotorDeInferencia</Filter>
+    </ClCompile>
+    <ClCompile Include="MotorDeInferencia.cpp">
+      <Filter>Archivos de origen\MotorDeInferencia</Filter>
+    </ClCompile>
+    <ClCompile Include="Regla.cpp">
+      <Filter>Archivos de origen\MotorDeInferencia</Filter>
+    </ClCompile>
+    <ClCompile Include="Pauta.cpp">
+      <Filter>Archivos de origen\Pauta</Filter>
+    </ClCompile>
+    <ClCompile Include="TiempoGUI.cpp">
+      <Filter>Archivos de origen\Tiempo</Filter>
+    </ClCompile>
+    <ClCompile Include="TiempoMI.cpp">
+      <Filter>Archivos de origen\Tiempo</Filter>
+    </ClCompile>
+    <ClCompile Include="ManejadorMI.cpp">
+      <Filter>Archivos de origen\ManejadorDeComunicaciones</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseDeDatos.cpp">
+      <Filter>Archivos de origen\Base de datos</Filter>
+    </ClCompile>
+    <ClCompile Include="Recuperacion.cpp">
+      <Filter>Archivos de origen\Base de datos</Filter>
+    </ClCompile>
+    <ClCompile Include="LeerArchivo.cpp">
+      <Filter>Archivos de origen\Archivo</Filter>
+    </ClCompile>
+    <ClCompile Include="LeerArchivoEvaluador.cpp">
+      <Filter>Archivos de origen\Archivo</Filter>
+    </ClCompile>
+    <ClCompile Include="LeerPauta.cpp">
+      <Filter>Archivos de origen\Archivo</Filter>
+    </ClCompile>
+    <ClCompile Include="Act1UnoBI.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Basica\ComplIntermedia</Filter>
+    </ClCompile>
+    <ClCompile Include="FormEstrella.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Ventanas emergentes</Filter>
+    </ClCompile>
+    <ClCompile Include="Act1DosBI.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Basica\ComplIntermedia</Filter>
+    </ClCompile>
+    <ClCompile Include="Act1DosBD.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Basica\ComplDificil</Filter>
+    </ClCompile>
+    <ClCompile Include="Act1UnoBD.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Basica\ComplDificil</Filter>
+    </ClCompile>
+    <ClCompile Include="Act1DosBB.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Basica\ComplBasica</Filter>
+    </ClCompile>
+    <ClCompile Include="Act1UnoBB.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Basica\ComplBasica</Filter>
+    </ClCompile>
+    <ClCompile Include="Act1DosIB.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Intermedia\ComplBasica</Filter>
+    </ClCompile>
+    <ClCompile Include="Act1UnoIB.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Intermedia\ComplBasica</Filter>
+    </ClCompile>
+    <ClCompile Include="Act1UnoII.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Intermedia\ComplIntermedia</Filter>
+    </ClCompile>
+    <ClCompile Include="Act1DosII.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Intermedia\ComplIntermedia</Filter>
+    </ClCompile>
+    <ClCompile Include="Act1UnoID.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Intermedia\ComplDificil</Filter>
+    </ClCompile>
+    <ClCompile Include="Act1DosID.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Intermedia\ComplDificil</Filter>
+    </ClCompile>
+    <ClCompile Include="Act1DosDB.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Dificil\ComplBasica</Filter>
+    </ClCompile>
+    <ClCompile Include="Act1UnoDB.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Dificil\ComplBasica</Filter>
+    </ClCompile>
+    <ClCompile Include="Act1DosDI.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Dificil\ComplIntermedia</Filter>
+    </ClCompile>
+    <ClCompile Include="Act1UnoDI.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Dificil\ComplIntermedia</Filter>
+    </ClCompile>
+    <ClCompile Include="Act1UnoDD.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Dificil\ComplDificil</Filter>
+    </ClCompile>
+    <ClCompile Include="Act1DosDD.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema1\Dificultad Dificil\ComplDificil</Filter>
+    </ClCompile>
+    <ClCompile Include="Act2UnoBB.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Basica\ComplBasica</Filter>
+    </ClCompile>
+    <ClCompile Include="Act2DosBB.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Basica\ComplBasica</Filter>
+    </ClCompile>
+    <ClCompile Include="Act2UnoBI.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Basica\ComplIntermedia</Filter>
+    </ClCompile>
+    <ClCompile Include="Act2DosBI.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Basica\ComplIntermedia</Filter>
+    </ClCompile>
+    <ClCompile Include="Act2UnoBD.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Basica\ComplDificil</Filter>
+    </ClCompile>
+    <ClCompile Include="Act2DosBD.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Basica\ComplDificil</Filter>
+    </ClCompile>
+    <ClCompile Include="Act2DosIB.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Intermedia\ComplBasica</Filter>
+    </ClCompile>
+    <ClCompile Include="Act2UnoIB.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Intermedia\ComplBasica</Filter>
+    </ClCompile>
+    <ClCompile Include="Act2DosII.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Intermedia\ComplIntermedia</Filter>
+    </ClCompile>
+    <ClCompile Include="Act2UnoII.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Intermedia\ComplIntermedia</Filter>
+    </ClCompile>
+    <ClCompile Include="Act2DosID.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Intermedia\ComplDificil</Filter>
+    </ClCompile>
+    <ClCompile Include="Act2UnoID.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Intermedia\ComplDificil</Filter>
+    </ClCompile>
+    <ClCompile Include="Act2DosDB.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Dificil\ComplBasica</Filter>
+    </ClCompile>
+    <ClCompile Include="Act2UnoDB.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Dificil\ComplBasica</Filter>
+    </ClCompile>
+    <ClCompile Include="Act2UnoDI.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Dificil\ComplIntermedia</Filter>
+    </ClCompile>
+    <ClCompile Include="Act2DosDI.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Dificil\ComplIntermedia</Filter>
+    </ClCompile>
+    <ClCompile Include="Act2UnoDD.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Dificil\ComplDificil</Filter>
+    </ClCompile>
+    <ClCompile Include="Act2DosDD.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2\Dificultad Dificil\ComplDificil</Filter>
+    </ClCompile>
+    <ClCompile Include="PrincipalTres.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Intermedio\Tema3</Filter>
+    </ClCompile>
+    <ClCompile Include="PrincipalCuatro.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Intermedio\Tema4</Filter>
+    </ClCompile>
+    <ClCompile Include="PrincipalCinco.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Dificil</Filter>
+    </ClCompile>
+    <ClCompile Include="NivelDos.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Intermedio</Filter>
+    </ClCompile>
+    <ClCompile Include="PrincipalDos.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Niveles\Nivel Basico\Tema2</Filter>
+    </ClCompile>
+    <ClCompile Include="Mensaje.cpp">
+      <Filter>Archivos de origen\InterfazGrafica\Ventanas emergentes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Login.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyForm.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registro.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Niveles.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Advertencia.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NivelUno.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalUno.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1UnoBI.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEstrella.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1DosBI.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1DosBD.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1UnoBD.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1DosBB.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1UnoBB.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1DosIB.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1UnoIB.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1DosII.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1UnoII.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1DosID.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1UnoID.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1DosDB.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1UnoDB.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1DosDI.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1UnoDI.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1DosDD.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act1UnoDD.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act2DosBB.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act2UnoBB.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act2DosBI.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act2UnoBI.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act2DosBD.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act2UnoBD.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act2DosIB.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act2UnoIB.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act2DosII.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act2UnoII.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act2DosID.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act2UnoID.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act2DosDB.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act2UnoDB.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act2DosDI.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act2UnoDI.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act2DosDD.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Act2UnoDD.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalCinco.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalCuatro.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalTres.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NivelDos.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalDos.resx">
+      <Filter>Archivos de recursos</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
